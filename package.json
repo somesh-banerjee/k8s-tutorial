@@ -1,0 +1,24 @@
+{
+  "name": "k8s-tutorial",
+  "version": "1.0.0",
+  "description": "This repo contains the code for the Kubernetes tutorial series on [my blog]().",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somesh-banerjee/k8s-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/somesh-banerjee/k8s-tutorial/issues"
+  },
+  "homepage": "https://github.com/somesh-banerjee/k8s-tutorial#readme",
+  "dependencies": {
+    "express": "^4.19.1"
+  }
+}
