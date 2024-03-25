@@ -14,7 +14,6 @@ spec:
     spec:
       containers:
         - name: express-app
-          image: express-app:latest
-          imagePullPolicy: Never
+          image: localhost:32000/express-app:v1
           ports:
             - containerPort: 3000
