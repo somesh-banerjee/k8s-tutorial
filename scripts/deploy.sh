@@ -2,7 +2,7 @@
 
 # Step 1: Build Docker image
 echo "Building Docker image..."
-docker build -t express-app docker/
+docker build -t express-app .
 
 # Step 2: Create Kubernetes Deployment
 echo "Creating Kubernetes Deployment..."
