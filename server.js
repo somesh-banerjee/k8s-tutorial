@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get('/', (_req, res) => {
   console.log('Request received!');
-  res.send('Hello from Express - Version 1!');
+  res.send('Hello from Express - Version 2!');
 });
 
 app.listen(PORT, () => {
